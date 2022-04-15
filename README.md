@@ -123,6 +123,7 @@ Kali,,,
 ````bash
 /etc/shadow
 ````
+![Captura de Pantalla 2022-04-15 a la(s) 16 30 02](https://user-images.githubusercontent.com/59784204/163629455-dfd330d9-edad-4ac9-bef8-ce51cc967aa4.png)
 
 *Nombre de usuario*
 ````bash
