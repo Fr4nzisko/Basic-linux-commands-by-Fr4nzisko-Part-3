@@ -55,6 +55,9 @@
 /dev/null
 ````
 
+![jerarquia-archivos](https://user-images.githubusercontent.com/59784204/163629620-03e52bb8-44fa-42ff-9e95-724d121f9de6.png)
+
+
 # Directorio importante
 
 *uso de grep :*
@@ -106,28 +109,37 @@ x
 
 *Nombre completo del usuario*
 ````bash
-Kali,,,
+fr4nzisko,,,
 ````
 
 *la ruta principal del usuario*
 ````bash
-/home/kali/
+/home/fr4nzisko/
 ````
 
 *la shell que ocupa el usuario echo $SHELL*
+````bash
+echo $SHELL
+````
+
+*Resultado*
 ````bash
 /usr/bin/zsh
 ````
 
 *ruta donde se almacena las contraseña de los usuarios*
 ````bash
-/etc/shadow
+cat /etc/shadow
+````
+*Filtrar por contraseña de usuario en especifico
+````bash
+sudo cat /etc/shadow | grep "fr4nzisko"
 ````
 ![Captura de Pantalla 2022-04-15 a la(s) 16 30 02](https://user-images.githubusercontent.com/59784204/163629455-dfd330d9-edad-4ac9-bef8-ce51cc967aa4.png)
 
 *Nombre de usuario*
 ````bash
-kali
+fr4nzisko
 ````
 
 *Contraseña cifrada*
@@ -137,7 +149,7 @@ $y$
 
 *Días transcurrido del cambio de credenciales*
 ````bash
-17854
+19093
 ````
 
 *Es modificable*
