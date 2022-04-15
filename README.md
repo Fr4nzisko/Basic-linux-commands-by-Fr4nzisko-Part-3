@@ -194,17 +194,17 @@ $6$
 chmod (+) (-) (rwx) (421) (pgp) 
 ````
 
-*lectura*valor (4*
+*lectura valor 4*
 ````bash
 r
 ````
 
-*escritura*valor (2*
+*escritura valor 2*
 ````bash
 w
 ````
 
-*ejecucion*valor (1*
+*ejecucion valor 1*
 ````bash
 x
 ````
@@ -216,12 +216,12 @@ x
 
 
 
-*propietario (kali*
+*propietario kali*
 ````bash
 p
 ````
 
-*grupos (otros usuario o grupos*
+*grupos otros usuario o grupos*
 ````bash
 g
 ````
@@ -246,7 +246,7 @@ u
 g
 ````
 
-*Referimos a otros.*
+*Referimos a otros*
 ````bash
 o
 ````
