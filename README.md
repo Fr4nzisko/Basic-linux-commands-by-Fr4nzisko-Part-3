@@ -131,7 +131,7 @@ echo $SHELL
 ````bash
 cat /etc/shadow
 ````
-*Filtrar por contraseña de usuario en especifico
+*Filtrar por contraseña de usuario en especifico*
 ````bash
 sudo cat /etc/shadow | grep "fr4nzisko"
 ````
