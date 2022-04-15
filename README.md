@@ -82,13 +82,13 @@ grep fr4nzisko /etc/passwd
 ````
 
 ````bash
-cat /etc/passwd | grep "kali"*kali:x:1000:1000:Kali,,,:/home/kali:/usr/bin/zsh
+cat /etc/passwd | grep "fr4nzisko"*fr4nzisko:x:1000:1000:Kali,,,:/home/fr4nzisko:/usr/bin/zsh
 ````
 
 
 *nombre de usuario*
 ````bash
-kali
+fr4nzisko
 ````
 
 *contraseña encriptada*
